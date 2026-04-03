@@ -1,5 +1,5 @@
 # Cloudflare Pages Configuration
 
-deplyment:
-  publish: / 
+deployment:
+  publish: /
   functions: ./functions
