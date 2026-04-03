@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Veiltext — Support</title>
+  <meta name="description" content="Get help with Veiltext. Troubleshooting, FAQ, and how to report issues." />
+  <link rel="stylesheet" href="../../styles.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav-inner">
+      <a class="nav-brand" href="/">mesut.uk</a>
+      <ul class="nav-links">
+        <li><a href="/veiltext/support">Support</a></li>
+        <li><a href="/veiltext/privacy">Privacy</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="site-wrapper">
+      <div class="page-content">
+        <h1 class="page-title">Veiltext Support</h1>
+        <p class="page-subtitle">Need help? Here's everything you need to get going.</p>
+
+        <div class="note-box">
+          <strong>Quick tip:</strong> Most issues can be resolved by checking the steps below.
+          If you're still stuck, open a GitHub issue and we'll look into it.
+        </div>
+
+        <div class="content-section">
+          <h2>Troubleshooting</h2>
+          <p>If Veiltext isn't behaving as expected, try these steps first:</p>
+          <ol>
+            <li><strong>Restart the app</strong> — close it fully and reopen.</li>
+            <li><strong>Check storage permissions</strong> — Veiltext needs access to on-device storage to save notes. Go to your device settings and make sure storage permission is granted.</li>
+            <li><strong>Check available storage</strong> — If your device is nearly full, Veiltext may not be able to save new notes.</li>
+            <li><strong>Update the app</strong> — Make sure you have the latest version installed from the App Store or Google Play.</li>
+            <li><strong>Reinstall</strong> — As a last resort, uninstalling and reinstalling the app can clear any corrupted state. <em>Note: this will delete any locally stored notes that have not been backed up.</em></li>
+          </ol>
+        </div>
+
+        <div class="content-section">
+          <h2>Frequently Asked Questions</h2>
+          <p><strong>Are my notes backed up to the cloud?</strong><br />
+          No. Veiltext stores all notes locally on your device. There is no server-side sync or cloud backup. Your notes are yours alone.</p>
+
+          <p><strong>Can I recover a deleted note?</strong><br />
+          Deleted notes cannot be recovered once removed. Veiltext does not maintain a trash or undo history for deletions.</p>
+
+          <p><strong>Is Veiltext encrypted?</strong><br />
+          Yes. Notes are encrypted on-device. The encryption key never leaves your device.</p>
+
+          <p><strong>Why can't I open the app after a system update?</strong><br />
+          Try a clean reinstall. If the issue persists, please report it via GitHub Issues (link below).</p>
+        </div>
+
+        <div class="content-section">
+          <h2>Reporting an Issue</h2>
+          <p>If you've found a bug or unexpected behavior, please open an issue on GitHub so it can be tracked and fixed:</p>
+          <p>
+            <a href="https://github.com/Mesutcydev/Veiltext/issues" target="_blank" rel="noopener noreferrer">
+              github.com/Mesutcydev/Veiltext/issues →
+            </a>
+          </p>
+          <p>When reporting, please include:</p>
+          <ul>
+            <li>A clear description of the problem</li>
+            <li>Steps to reproduce the issue</li>
+            <li>Your device model and operating system version</li>
+            <li>The version of Veiltext you're using</li>
+            <li>Any relevant screenshots or error messages</li>
+          </ul>
+        </div>
+
+        <div class="content-section">
+          <h2>Contact</h2>
+          <p>For anything not covered above, you can reach out via GitHub:</p>
+          <p>
+            <a href="https://github.com/Mesutcydev" target="_blank" rel="noopener noreferrer">
+              github.com/Mesutcydev →
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Mesut &middot;
+      <a href="/">mesut.uk</a> &middot;
+      <a href="/veiltext/privacy">Privacy Policy</a> &middot;
+      <a href="https://github.com/Mesutcydev/Veiltext">GitHub</a>
+    </p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
