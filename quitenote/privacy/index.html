@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>QuiteNote Privacy Policy</title>
+    <meta name="description" content="Privacy policy for QuiteNote — local storage, permissions, and encryption behavior." />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="site-bg"></div>
+
+    <header class="site-header">
+      <a class="brand" href="/quitenote/">
+        <img src="/assets/app-icon.png" alt="QuiteNote app icon" width="36" height="36" />
+        <span>QuiteNote</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary">
+        <a aria-current="page" href="/quitenote/privacy/">Privacy</a>
+        <a href="/quitenote/support/">Support</a>
+        <a href="/">Home</a>
+      </nav>
+    </header>
+
+    <main class="page">
+      <section class="hero hero-article">
+        <div class="hero-copy">
+          <p class="eyebrow">Policy</p>
+          <h1>QuiteNote Privacy Policy</h1>
+          <p class="lede">
+            Effective April 3, 2026. QuiteNote is designed to help protect supported text before you share it. It does not hide metadata such as recipients or timing.
+          </p>
+        </div>
+
+        <aside class="side-note">
+          <h2>At a glance</h2>
+          <ul>
+            <li>No account required</li>
+            <li>No phone number required</li>
+            <li>No QuiteNote message server</li>
+            <li>Key material stays on device</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section class="article-layout">
+        <article class="article-card">
+          <section>
+            <h2>1. Data QuiteNote may store on your device</h2>
+            <p>Depending on settings and usage, QuiteNote may store locally:</p>
+            <ul>
+              <li>trusted contacts you save</li>
+              <li>local key material used for supported encryption flows</li>
+              <li>app preferences and privacy settings</li>
+              <li>optional encrypted or decrypted history, if enabled</li>
+              <li>temporary draft and extension state to keep app and Messages extension in sync</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>2. What QuiteNote does not do</h2>
+            <p>QuiteNote is not a messaging service, social network, or cloud inbox. It does not run a delivery network for messages and does not guarantee anonymity or absolute security.</p>
+          </section>
+
+          <section>
+            <h2>3. Encryption and secure storage</h2>
+            <p>QuiteNote relies on platform security APIs and modern cryptographic building blocks. Long-term key material is intended to remain on your device and is stored using platform-supported secure storage (e.g., Keychain).</p>
+            <ul>
+              <li>CryptoKit-based operations</li>
+              <li>Curve25519 key agreement for public-key flows</li>
+              <li>Authenticated encryption for protected payloads</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>4. Camera and biometric features</h2>
+            <p>Camera access is requested only for scanning public-key QR codes. Biometric protection uses the device's Face ID / Touch ID; QuiteNote does not store biometric templates.</p>
+          </section>
+
+          <section>
+            <h2>5. Clipboard and temporary state</h2>
+            <p>Sensitive text copied to the clipboard may remain available to the OS or other apps until cleared. Temporary draft data may be stored in the shared container to improve continuity between the app and extension.</p>
+          </section>
+
+          <section>
+            <h2>6. Purchases</h2>
+            <p>Optional purchases are handled by Apple via the App Store and StoreKit. QuiteNote does not directly process payment card details.</p>
+          </section>
+
+          <section>
+            <h2>7. Analytics, ads, and tracking</h2>
+            <p>This policy does not describe third-party analytics or advertising SDKs. If analytics or ads are added in a future release, the policy will be updated before that release.</p>
+          </section>
+
+          <section>
+            <h2>8. Your responsibility</h2>
+            <p>Device security, passphrase quality, key verification, software updates, clipboard handling, and recipient behavior affect privacy. If a device is compromised, no app can guarantee complete protection.</p>
+          </section>
+
+          <section>
+            <h2>9. Contact</h2>
+            <p>For privacy or support questions, use the support page or open an issue on GitHub:</p>
+            <ul>
+              <li><a href="/quitenote/support/">Support page</a></li>
+              <li><a href="https://github.com/Mesutcydev/Veiltext/issues" target="_blank" rel="noreferrer">GitHub Issues</a></li>
+            </ul>
+          </section>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>QuiteNote Privacy Policy</p>
+      <p><a href="/quitenote/support/">Need help instead?</a></p>
+    </footer>
+  </body>
+</html>

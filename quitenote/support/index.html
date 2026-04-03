@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>QuiteNote Support</title>
+    <meta name="description" content="Support page for QuiteNote, including troubleshooting and issue reporting guidance." />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="site-bg"></div>
+
+    <header class="site-header">
+      <a class="brand" href="/quitenote/">
+        <img src="/assets/app-icon.png" alt="QuiteNote app icon" width="36" height="36" />
+        <span>QuiteNote</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/quitenote/privacy/">Privacy</a>
+        <a aria-current="page" href="/quitenote/support/">Support</a>
+        <a href="/">Home</a>
+      </nav>
+    </header>
+
+    <main class="page">
+      <section class="hero hero-article">
+        <div class="hero-copy">
+          <p class="eyebrow">Support</p>
+          <h1>QuiteNote Support</h1>
+          <p class="lede">
+            QuiteNote is a privacy utility for encrypting supported text before you share it. If something isn't working, this page is the first stop.
+          </p>
+        </div>
+
+        <aside class="side-note">
+          <h2>Best report format</h2>
+          <ul>
+            <li>Device model</li>
+            <li>iOS version</li>
+            <li>QuiteNote version</li>
+            <li>Main app or Messages extension</li>
+            <li>Repro steps and screenshots</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section class="article-layout">
+        <article class="article-card">
+          <section>
+            <h2>1. Before opening an issue</h2>
+            <p>Include the exact screen flow, expected vs actual behavior, and whether the problem appears in the main app or the Messages extension.</p>
+          </section>
+
+          <section>
+            <h2>2. Common support topics</h2>
+
+            <h3>Language or localization</h3>
+            <p>If QuiteNote remains in English after changing device language, fully close and reopen the app and the Messages extension.</p>
+
+            <h3>Face ID or app lock</h3>
+            <p>If QuiteNote relocks unexpectedly after biometric authentication, include the unlock flow and whether it happens after backgrounding the app.</p>
+
+            <h3>Messages extension problems</h3>
+            <p>If the Messages extension looks blank, opens slowly, or loses state, mention compact vs expanded mode and whether ciphertext or a key was already on the clipboard.</p>
+
+            <h3>Clipboard or key import</h3>
+            <p>If paste or key import fails, say whether you were pasting ciphertext, a public key, or scanning a QR code. If safe, include visible error text and screenshots.</p>
+          </section>
+
+          <section>
+            <h2>3. Contact and issue reporting</h2>
+            <p>The public support path currently points to GitHub Issues:</p>
+            <ul>
+              <li><a href="https://github.com/Mesutcydev/Veiltext/issues" target="_blank" rel="noreferrer">Open a GitHub issue</a></li>
+              <li><a href="/quitenote/privacy/">Read the privacy policy</a></li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>4. What to mention for faster triage</h2>
+            <ul>
+              <li>Whether the issue happens every time or intermittently</li>
+              <li>Passphrase mode or trusted-contact mode</li>
+              <li>Whether the clipboard contained encrypted text or key material</li>
+              <li>Whether the problem started after an app or iOS update</li>
+            </ul>
+          </section>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>QuiteNote Support</p>
+      <p><a href="https://github.com/Mesutcydev/Veiltext/issues" target="_blank" rel="noreferrer">GitHub Issues</a></p>
+    </footer>
+  </body>
+</html>
